@@ -67,7 +67,7 @@ console.log (`Las pizzas con id par son ${nombre_pizzas.join(", ")}`)
 
 
 //3
-let tipos_pizza[]
+let tipos_pizza= []
 
  pizzas.forEach ((pizza) => {
   console.log (`Las pizzas son ${pizza.nombre}`)
