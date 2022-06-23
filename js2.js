@@ -39,7 +39,7 @@ let pizzas = [
         precio: 800,
     }
 ]
-// 1
+// a
  let nombre_pizzas = [] 
 
  let idPar= pizzas.filter ((pizza) => (pizza.id % 2 ==0));
@@ -52,7 +52,7 @@ let pizzas = [
 
 console.log (`Las pizzas con id par son ${nombre_pizzas.join(", ")}`) 
 
-//2
+// b
 
  switch (pizzas.some((pizza)=> pizza.precio <= 600)) {
 
@@ -66,20 +66,20 @@ console.log (`Las pizzas con id par son ${nombre_pizzas.join(", ")}`)
 }
 
 
-//3
+// c 
 let tipos_pizza= []
 
  pizzas.forEach ((pizza) => {
   console.log (`Las pizzas son ${pizza.nombre}`)
 })
 
-//4
+// d
 
 pizzas.forEach ((pizza) => {
 console.log (`los precios de las pizzas son ${pizza.precio}`)
 })
 
-//5
+// e
 
 pizzas.forEach ((pizza) => {
     console.log (`La pizza ${pizza.nombre} tiene el precio de ${pizza.precio} pesos`)
